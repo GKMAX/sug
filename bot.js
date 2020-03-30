@@ -45,7 +45,7 @@ if(message.content.startsWith("اقترح")) {
 
  
 
-const args = message.content.slice(prefix.length).trim().split(/ +/g);
+const args = message.content.slice().trim().split(/ +/g);
 
  
 
