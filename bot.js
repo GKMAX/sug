@@ -41,18 +41,6 @@ var suggestMessage = args.slice(1).join(" ")
 
 });
 
-client.on("message", mohamed => {
 
-  if(!mohamed.channel.id == "688793511436484728") return;
-
- if(mohamed.channel.id == "688793511436484728"){ 
-
-mohamed.react("✅") 
-
-mohamed.react("❌") 
-
- }
-
-});
 
 client.login(process.env.TOKEN);
