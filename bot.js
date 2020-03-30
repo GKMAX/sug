@@ -20,5 +20,5 @@ if (message.content.startsWith(prefix + "embed")){
   })
 
 client.login(process.env.TOKEN);
-test
+
 
