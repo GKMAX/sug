@@ -39,7 +39,7 @@ var suggestMessage = args.slice(1).join(" ")
 
 }
 
-})
+});
 
 client.on("message", mohamed => {
 
