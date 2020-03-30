@@ -15,7 +15,7 @@ if(message.content.startsWith("اقترح")) {
   
 const args = message.content.slice(prefix.length).trim().split(/ +/g);
  
- const suggestMessage join();
+var suggestMessage = args.slice(1).join(" ")
 
   if(!suggestMessage) return message.reply("الرجاء وضع اقتراح")
 
