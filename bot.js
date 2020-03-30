@@ -103,9 +103,9 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 });
 
 
-client.on('message', message => {let prefix = "-";
+client.on('message', message => {
 
-if(message.content.startsWith(prefix + "sug")) {
+if(message.content.startsWith("اقترح")) {
 
       message.delete()
 
