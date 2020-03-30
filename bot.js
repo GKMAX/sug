@@ -7,7 +7,7 @@ const prefix = ['-'];
 
 
 client.on("message", message=>{
-if (message.content.startsWith(prefix + "embed")){
+if (message.content.startsWith(prefix + "اقترح")){
   if(!message.member.hasPermission('ADMINISTRATOR')) return message.delete();
   let args = message.content.split(" ").slice(1);
     let say = new Discord.RichEmbed()
