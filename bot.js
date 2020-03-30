@@ -7,9 +7,9 @@ client.on('ready', () => {
 });
 
 
-client.on('message', message => {
+client.on('message', message => {let prefix = "-";
 
-if(message.content.startsWith("اقترح")) {
+if(message.content.startsWith(prefix + "اقترح")) {
 
       message.delete()
   
