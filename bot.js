@@ -14,7 +14,7 @@ if(message.content.startsWith("اقترح")) {
       message.delete()
 
  
-
+ const suggestMessage join();
 
   if(!suggestMessage) return message.reply("الرجاء وضع اقتراح")
 
